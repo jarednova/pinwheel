@@ -1,0 +1,32 @@
+{
+  "name": "jarednova/pinwheel",
+  "description": "Plugin to write WordPress themes w Object-Oriented Code and the Twig Template Engine",
+  "homepage": "http://timber.upstatement.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jared Novack",
+      "email": "jared@upstatement.com",
+      "homepage": "http://upstatement.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "laravel/lumen-installer": "1.*"
+  },
+  "requie-dev" : {
+    "phpunit/phpunit": "~4.0",
+    "satooshi/php-coveralls": "dev-master"
+  },
+  "autoload": {
+    "classmap": [
+      "lib/"
+    ]
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    }
+  ]
+}
